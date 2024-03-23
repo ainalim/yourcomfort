@@ -150,7 +150,7 @@ div{
 .section-promotion{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     gap: 20px;
     margin: 20px;
@@ -158,7 +158,7 @@ div{
 }
 
 .promotion{
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: left;
 }
@@ -183,7 +183,7 @@ div{
     width: 40%;
 }
 .block-left img {
-    width: 150%;
+    width: 100%;
     height: 100%;
     object-fit: cover;  
 }
@@ -203,8 +203,8 @@ div{
     flex-direction: row;
 }
 .block-img img{
-  height: ;
-    width: 30%;
+  height: auto;
+    width: 25%;
 }
 .block-right .title{
     display: flex;
